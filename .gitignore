@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+client/node_modules/
+
+# env files (secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# build output
+client/build/
+
+# compiled binaries
+*.exe
+backend/server.exe
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
